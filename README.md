@@ -1,9 +1,7 @@
 # SOLID-Principles
 <h3>Software Engineering 2 | Lab Assignment 5</h3>
-
 <h3>Problem Statement:</h3>
 Improve the following codes to implement SOLID principles in OOP.
-
 
 public interface Order {
 
@@ -55,8 +53,6 @@ public class OrderTest {
     order.sendEmailNotification("johndoe@example.com");
   }
 }
-
-
 
 
 UML Class Diagram:
