@@ -10,7 +10,7 @@ public class OrderMain {
         );
 
         System.out.println("--- Processing Standard Order ---");
-        standardOrder.processOrder(10.0, 2, "John Doe", "123 Main St", "order_123.pdf", "johndoe@example.com");
+        standardOrder.processOrder(10.0, 2, "John Peterson", "67 Ever Street", "order_1.pdf", "jpeterson@gmain.com");
 
         System.out.println("\n--- Processing Simple Order (No Invoice/Email) ---");
         
@@ -22,6 +22,6 @@ public class OrderMain {
             null  
         );
         
-        simpleOrder.processOrder(5.0, 1, "Jane Smith", "456 Oak Ave", null, null);
+        simpleOrder.processOrder(5.0, 1, "Jane Petrason", "76 Green Avenue", null, null);
     }
 }
